@@ -1,0 +1,16 @@
+Plan for how to complete this project:
+
+1. create test file and manually find answer when starting in row 7.
+test_answer = [(0,6), (1,5), (2,4), (3,3), (4,2), (5,3), (6,2), (7,2), (8,3), (9,4), (10,5), (11,5), (12,5), (13,6)]
+
+2. 
+
+pixels is a list of tuples of (x, y) position values
+pixel means one (row,column) element of data as a tuple
+white = (255, 255, 255, 255), last value decreases to zero which means greater opacity as A in RGBA decreases
+black = rgb(0, 0, 0)
+
+for any given pixel, color is rgb(A, A, A)
+
+[rgb value, elevation]
+
