@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pillow = "*"
+black = "*"
 
 [dev-packages]
 yapf = "*"
